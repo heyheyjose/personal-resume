@@ -4,16 +4,12 @@ The source for my resume static site. Instructions below:
 
 ##### To dev
 ```
-$ git status // dev on gh-pages branch
-$ grunt less // run after any Less changes
 $ grunt // generates the js files and serves the project
 ```
 
 ##### To deploy
 ```
 $ grunt build // builds the static site in the "build" directory
-* git loop // (to push gh-pages branch containing everything to dev remote)
-$ git subtree push --prefix build prod gh-pages (to push only "build" directory to prod remote)
 ```
 
 Visit [http://localhost:8888](http://localhost:8888) to see changes.
