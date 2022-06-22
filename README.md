@@ -6,13 +6,15 @@ The source for my resume static site. Instructions below:
 ```
 $ grunt // generates the js files and serves the project
 ```
+Visit [http://localhost:8888](http://localhost:8888) to see changes.
 
 ##### To deploy
 ```
 $ grunt build // builds the static site in the "build" directory
 ```
-
-Visit [http://localhost:8888](http://localhost:8888) to see changes.
+```
+commit directly & push (linked to netlify build pipeline)
+```
 
 ##### Testing JSON changes
 Test changes by updating `resume.json` file inside `node_modules/resume-schema/` folder. Rerun `grunt` optional: `exec:run_server` after any changes to `resume.json`
